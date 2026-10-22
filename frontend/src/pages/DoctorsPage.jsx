@@ -84,7 +84,7 @@ export default function DoctorsPage() {
   return (
     <main className="pt-18">
       {/* Header */}
-      <section className="relative py-20 bg-[var(--teal-900)] overflow-hidden">
+      <section className="relative py-14 sm:py-20 bg-[var(--teal-900)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=1920&q=80')" }}

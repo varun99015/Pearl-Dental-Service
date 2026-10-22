@@ -203,6 +203,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 1.5rem;
 }
 
+/* ─── Responsive Container ─── */
+@media (min-width: 1400px) {
+  .container-custom { max-width: 1320px; }
+}
+
 /* ─── Typography ─── */
 .section-label {
   display: inline-block;
@@ -339,6 +344,15 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0.75rem;
 }
 
+@media (max-width: 768px) {
+  .toast-container {
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    align-items: stretch;
+  }
+}
+
 /* ─── Navigation ─── */
 .nav-link {
   font-size: 0.9375rem;
@@ -399,5 +413,14 @@ h1, h2, h3, h4, h5, h6 {
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
   .section-padding { padding: 4rem 0; }
+  .section-padding-sm { padding: 2.5rem 0; }
   .container-custom { padding: 0 1rem; }
+  .form-input { padding: 0.6rem 0.8rem; font-size: 0.8125rem; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section-padding { padding: 5rem 0; }
+  .section-padding-sm { padding: 3rem 0; }
+  .container-custom { padding: 0 1.25rem; }
+  .form-input { padding: 0.7rem 1rem; font-size: 0.875rem; }
 }

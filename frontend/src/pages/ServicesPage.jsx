@@ -35,7 +35,7 @@ export default function ServicesPage() {
   return (
     <main className="pt-18">
       {/* Page Header */}
-      <section className="relative py-20 bg-[var(--teal-900)] overflow-hidden">
+      <section className="relative py-14 sm:py-20 bg-[var(--teal-900)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1920&q=80')" }}
@@ -67,7 +67,7 @@ export default function ServicesPage() {
               <ScrollReveal key={service.id} id={service.slug}>
                 <div
                   id={service.slug}
-                  className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
+                  className={`grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12 items-center ${
                     index % 2 !== 0 ? 'lg:grid-flow-dense' : ''
                   }`}
                 >

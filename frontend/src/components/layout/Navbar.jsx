@@ -96,6 +96,24 @@ export default function Navbar() {
               ))}
             </div>
 
+            {/* Tablet Nav — links only, no CTA (fits between 768px and 1024px) */}
+            <div className="hidden md:flex lg:hidden items-center gap-5">
+              {navLinks.map(link => (
+                <NavLink
+                  key={link.to}
+                  to={link.to}
+                  end={link.to === '/'}
+                  className={({ isActive }) =>
+                    `nav-link text-xs font-medium transition-colors ${
+                      isActive ? 'text-[var(--teal-600)]' : scrolled ? 'text-[var(--text-secondary)]' : 'text-white/90 hover:text-white'
+                    } ${isActive ? 'after:w-full' : ''}`
+                  }
+                >
+                  {link.label}
+                </NavLink>
+              ))}
+            </div>
+
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
               {clinic?.phone && (
@@ -117,7 +135,7 @@ export default function Navbar() {
 
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden p-2 rounded-lg transition-colors"
+              className="md:hidden p-2 rounded-lg transition-colors"
               onClick={() => setMobileOpen(v => !v)}
               aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
               aria-expanded={mobileOpen}
@@ -163,7 +181,7 @@ export default function Navbar() {
               </button>
             </div>
 
-            <nav className="flex-1 flex flex-col container-custom pt-6 gap-1" aria-label="Mobile navigation">
+            <nav className="flex-1 flex flex-col container-custom pt-6 gap-1 overflow-y-auto" aria-label="Mobile navigation">
               {navLinks.map((link, i) => (
                 <motion.div
                   key={link.to}

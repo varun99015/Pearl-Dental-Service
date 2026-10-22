@@ -69,7 +69,7 @@ function HeroSection({ clinic }) {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-5"
+            className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-[1.1] mb-5"
           >
             Confident<br />
             <span className="text-[var(--teal-200)]">Smiles.</span>
@@ -296,7 +296,7 @@ function HowItWorks() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
           {/* Connector line */}
-          <div className="hidden lg:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-[var(--border-light)] z-0" />
+          <div className="hidden sm:block absolute top-10 left-[12.5%] right-[12.5%] h-px bg-[var(--border-light)] z-0" />
 
           {steps.map((step, i) => (
             <ScrollReveal key={step.num} delay={i * 0.1} className="relative z-10 text-center">
@@ -420,7 +420,7 @@ function FaqSection() {
   return (
     <section className="section-padding bg-[var(--ivory)]" aria-labelledby="faq-heading">
       <div className="container-custom">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           <ScrollReveal>
             <span className="section-label">Common Questions</span>
             <h2 id="faq-heading" className="section-heading mt-3 mb-4">
@@ -465,7 +465,7 @@ function LocationSection({ clinic }) {
           </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Map */}
           <ScrollReveal>
             <div className="rounded-2xl overflow-hidden border border-[var(--border-light)] shadow-[var(--shadow-md)] h-80">

@@ -160,7 +160,7 @@ export default function ContactPage() {
   return (
     <main className="pt-18">
       {/* Header */}
-      <section className="relative py-20 bg-[var(--teal-900)] overflow-hidden">
+      <section className="relative py-14 sm:py-20 bg-[var(--teal-900)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1629909615957-be38d48fbbe4?w=1920&q=80')" }}
@@ -177,7 +177,7 @@ export default function ContactPage() {
 
       <section className="section-padding bg-[var(--ivory)]">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
             {/* Left: Contact Info */}
             <ScrollReveal>
               <div className="space-y-6">

@@ -145,7 +145,7 @@ export default function AppointmentPage() {
   return (
     <main className="pt-18">
       {/* Header */}
-      <section className="relative py-20 bg-[var(--teal-900)] overflow-hidden">
+      <section className="relative py-14 sm:py-20 bg-[var(--teal-900)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: "url('https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=1920&q=80')" }}
@@ -181,12 +181,12 @@ export default function AppointmentPage() {
               <SuccessScreen requestId={requestId} onReset={() => { setForm(initialForm); setSubmitted(false); setErrors({}); }} />
             ) : (
               <form onSubmit={handleSubmit} noValidate aria-label="Appointment request form">
-                <div className="p-8 border-b border-[var(--border-light)]">
+                <div className="p-5 sm:p-8 border-b border-[var(--border-light)]">
                   <h2 className="font-heading text-2xl font-bold text-[var(--text-primary)] mb-1">Request Details</h2>
                   <p className="text-sm text-[var(--text-muted)]">All fields marked * are required.</p>
                 </div>
 
-                <div className="p-8 space-y-6">
+                <div className="p-5 sm:p-8 space-y-6">
                   {/* Personal Info */}
                   <fieldset>
                     <legend className="text-sm font-semibold text-[var(--teal-600)] uppercase tracking-wider mb-4 flex items-center gap-2">
@@ -327,7 +327,7 @@ export default function AppointmentPage() {
                 </div>
 
                 {/* Submit */}
-                <div className="px-8 pb-8">
+                <div className="px-5 sm:px-8 pb-8">
                   <button
                     type="submit"
                     disabled={submitting}

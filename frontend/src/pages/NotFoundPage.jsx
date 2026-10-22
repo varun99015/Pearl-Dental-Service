@@ -11,7 +11,7 @@ export default function NotFoundPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="font-heading text-[10rem] font-bold text-[var(--teal-100)] leading-none mb-6 select-none">
+          <div className="font-heading text-[6rem] sm:text-[8rem] md:text-[10rem] font-bold text-[var(--teal-100)] leading-none mb-6 select-none">
             404
           </div>
           <h1 className="font-heading text-3xl md:text-4xl font-bold text-[var(--text-primary)] mb-4">
