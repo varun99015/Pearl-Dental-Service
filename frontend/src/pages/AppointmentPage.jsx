@@ -214,7 +214,7 @@ export default function AppointmentPage() {
                         <input
                           id="appt-phone" name="phone" type="tel" required
                           className={`form-input ${errors.phone ? 'error' : ''}`}
-                          placeholder="+91 98765 43210"
+                          placeholder="+91 6363427278"
                           value={form.phone} onChange={handleChange}
                           autoComplete="tel"
                         />
