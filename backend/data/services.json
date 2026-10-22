@@ -1,0 +1,155 @@
+[
+  {
+    "id": "general-dentistry",
+    "slug": "general-dentistry",
+    "name": "General Dentistry",
+    "shortDescription": "Comprehensive dental check-ups, X-rays and preventive care to maintain your oral health.",
+    "fullDescription": "Our general dentistry services form the foundation of good oral health. We offer thorough check-ups, digital X-rays, professional cleaning and early detection of potential issues. Regular visits help prevent more complex treatments later.",
+    "keyBenefits": [
+      "Comprehensive oral health assessment",
+      "Early detection of cavities and gum issues",
+      "Personalised home care guidance",
+      "Digital X-rays with minimal radiation"
+    ],
+    "image": "https://images.unsplash.com/photo-1588776814546-1ffbb5ffa2f4?w=800&q=80",
+    "icon": "Stethoscope",
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": "teeth-cleaning",
+    "slug": "teeth-cleaning",
+    "name": "Teeth Cleaning & Preventive Care",
+    "shortDescription": "Professional scaling, polishing and fluoride treatments to keep your smile healthy.",
+    "fullDescription": "Professional teeth cleaning removes tartar and plaque that regular brushing cannot reach. Our hygienist provides gentle, thorough cleaning with polishing and personalised advice on maintaining optimal oral hygiene at home.",
+    "keyBenefits": [
+      "Removal of hard deposits and stains",
+      "Fresher breath and brighter smile",
+      "Reduced risk of gum disease",
+      "Personalised hygiene instruction"
+    ],
+    "image": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&q=80",
+    "icon": "Sparkles",
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": "root-canal",
+    "slug": "root-canal",
+    "name": "Root Canal Treatment",
+    "shortDescription": "Modern, comfortable root canal therapy to save infected or damaged teeth.",
+    "fullDescription": "Root canal treatment relieves pain and saves teeth that would otherwise need extraction. Using modern techniques and local anaesthesia, the procedure is typically comfortable and straightforward. We take care to explain each step so you feel at ease throughout.",
+    "keyBenefits": [
+      "Preservation of your natural tooth",
+      "Relief from severe tooth pain",
+      "Modern anaesthesia for comfort",
+      "Single or multiple visit options"
+    ],
+    "image": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80",
+    "icon": "Shield",
+    "active": true,
+    "order": 3
+  },
+  {
+    "id": "dental-implants",
+    "slug": "dental-implants",
+    "name": "Dental Implants",
+    "shortDescription": "Permanent, natural-looking tooth replacements that restore your smile and function.",
+    "fullDescription": "Dental implants are titanium posts placed in the jawbone to replace missing tooth roots, providing a stable foundation for crowns, bridges or dentures. They look, feel and function like natural teeth. Treatment planning is tailored to your individual anatomy and goals.",
+    "keyBenefits": [
+      "Looks and functions like a natural tooth",
+      "Long-term solution for missing teeth",
+      "Preserves jawbone structure",
+      "No impact on adjacent teeth"
+    ],
+    "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+    "icon": "Zap",
+    "active": true,
+    "order": 4
+  },
+  {
+    "id": "teeth-whitening",
+    "slug": "teeth-whitening",
+    "name": "Teeth Whitening",
+    "shortDescription": "Safe, supervised whitening treatments for a noticeably brighter smile.",
+    "fullDescription": "Our professional whitening treatments use clinically approved agents administered under supervision for safe, effective results. We offer in-clinic sessions and take-home kits, with shade guidance and aftercare advice included.",
+    "keyBenefits": [
+      "Supervised, clinically appropriate treatment",
+      "Noticeable shade improvement",
+      "In-clinic and take-home options",
+      "Sensitivity management and aftercare advice"
+    ],
+    "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80",
+    "icon": "Sun",
+    "active": true,
+    "order": 5
+  },
+  {
+    "id": "clear-aligners",
+    "slug": "clear-aligners",
+    "name": "Clear Aligners & Orthodontics",
+    "shortDescription": "Discreet teeth-straightening solutions using removable clear aligner trays.",
+    "fullDescription": "Clear aligners offer a less conspicuous alternative to traditional braces for suitable cases. A series of custom-fitted, removable trays gradually guide teeth into improved positions. Suitability is assessed at an initial consultation, as not all orthodontic conditions are appropriate for aligner treatment.",
+    "keyBenefits": [
+      "Nearly invisible during wear",
+      "Removable for eating and cleaning",
+      "Custom-fitted to your teeth",
+      "Suitable for many mild to moderate alignment concerns"
+    ],
+    "image": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=800&q=80",
+    "icon": "AlignCenter",
+    "active": true,
+    "order": 6
+  },
+  {
+    "id": "pediatric-dentistry",
+    "slug": "pediatric-dentistry",
+    "name": "Paediatric Dentistry",
+    "shortDescription": "Gentle, child-friendly dental care in a welcoming and reassuring environment.",
+    "fullDescription": "We create positive dental experiences for children from their first visit onwards. Our approach is patient, gentle and reassuring, helping young patients build confidence and healthy habits that last a lifetime. Parents are welcome to accompany their child throughout the appointment.",
+    "keyBenefits": [
+      "Child-friendly approach and environment",
+      "Early establishment of good habits",
+      "Preventive treatments and sealants",
+      "Parent involvement and guidance"
+    ],
+    "image": "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&q=80",
+    "icon": "Heart",
+    "active": true,
+    "order": 7
+  },
+  {
+    "id": "crowns-bridges",
+    "slug": "crowns-bridges",
+    "name": "Crowns & Bridges",
+    "shortDescription": "Custom-made restorations to protect damaged teeth and replace missing ones.",
+    "fullDescription": "Dental crowns cap and protect teeth that are significantly damaged or have had root canal treatment. Bridges replace one or more missing teeth using adjacent teeth as anchors. Both are fabricated from high-quality materials for durability and natural appearance.",
+    "keyBenefits": [
+      "Protection for weakened or damaged teeth",
+      "Natural-looking, matched shades",
+      "Durable long-term restorations",
+      "Improved chewing function"
+    ],
+    "image": "https://images.unsplash.com/photo-1588776814546-1ffbb5ffa2f4?w=800&q=80",
+    "icon": "Award",
+    "active": true,
+    "order": 8
+  },
+  {
+    "id": "cosmetic-dentistry",
+    "slug": "cosmetic-dentistry",
+    "name": "Cosmetic Dentistry",
+    "shortDescription": "Smile makeovers, veneers and bonding to enhance the appearance of your teeth.",
+    "fullDescription": "Cosmetic dentistry addresses aesthetic concerns such as chipped, discoloured, uneven or slightly misaligned teeth. Options include porcelain veneers, composite bonding and smile design consultations. Treatment plans are personalised and discussed transparently before any procedure begins.",
+    "keyBenefits": [
+      "Personalised smile assessment",
+      "Veneer and bonding options",
+      "Minimally invasive where possible",
+      "Natural-looking aesthetic outcomes"
+    ],
+    "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80",
+    "icon": "Star",
+    "active": true,
+    "order": 9
+  }
+]

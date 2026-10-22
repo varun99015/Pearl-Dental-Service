@@ -1,0 +1,62 @@
+[
+  {
+    "id": "faq-1",
+    "question": "How do I book an appointment?",
+    "answer": "You can request an appointment through our online booking form on the Appointments page, by calling us at +91 98765 43210, or by sending us a WhatsApp message. Our team will contact you to confirm your preferred date and time slot.",
+    "category": "appointments"
+  },
+  {
+    "id": "faq-2",
+    "question": "What are your clinic hours?",
+    "answer": "We are open Monday to Friday from 9:00 AM to 8:00 PM, and Saturday from 9:00 AM to 6:00 PM. We are closed on Sundays. We recommend calling ahead or checking our website for any updates to opening hours during public holidays.",
+    "category": "general"
+  },
+  {
+    "id": "faq-3",
+    "question": "What should I expect on my first visit?",
+    "answer": "Your first visit includes a comprehensive oral health assessment, a discussion of your dental history and any concerns you may have, and a personalised treatment plan if needed. We encourage you to arrive a few minutes early to complete a brief health history form. The appointment typically takes around 45 to 60 minutes.",
+    "category": "first-visit"
+  },
+  {
+    "id": "faq-4",
+    "question": "Do you treat children?",
+    "answer": "Yes, we welcome patients of all ages. Our team is experienced in paediatric dentistry and takes a gentle, reassuring approach with younger patients. Parents are welcome to accompany their child throughout the appointment.",
+    "category": "services"
+  },
+  {
+    "id": "faq-5",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept cash, all major UPI platforms, net banking, and most debit and credit cards. We do not currently process insurance claims directly, but we can provide detailed receipts for you to submit to your insurer. Please speak to our front desk for details.",
+    "category": "payments"
+  },
+  {
+    "id": "faq-6",
+    "question": "Is the root canal procedure painful?",
+    "answer": "Modern root canal treatment is performed under local anaesthesia and is typically no more uncomfortable than a routine filling. Most patients report that the relief from pre-existing tooth pain is significant. We take time to ensure you are fully numb before beginning the procedure, and we are happy to discuss your concerns beforehand.",
+    "category": "services"
+  },
+  {
+    "id": "faq-7",
+    "question": "How often should I visit the dentist?",
+    "answer": "We generally recommend a check-up and professional cleaning every six months. However, your dentist may suggest a different schedule based on your individual oral health needs. Consistent preventive care helps detect issues early and reduces the need for more complex treatment.",
+    "category": "preventive"
+  },
+  {
+    "id": "faq-8",
+    "question": "Do you offer clear aligners?",
+    "answer": "Yes, we offer clear aligner therapy for suitable cases. Aligners are a discreet, removable alternative to traditional braces for many mild to moderate alignment concerns. Suitability varies by individual, and an initial consultation is required to assess whether aligners are appropriate for your situation.",
+    "category": "services"
+  },
+  {
+    "id": "faq-9",
+    "question": "How do I care for my teeth between visits?",
+    "answer": "Brush twice daily with fluoride toothpaste, floss at least once a day, and limit sugary foods and drinks. Stay well hydrated, and avoid using your teeth as tools. Your dentist will provide tailored advice based on your specific needs at each visit.",
+    "category": "preventive"
+  },
+  {
+    "id": "faq-10",
+    "question": "Is dental treatment expensive?",
+    "answer": "Treatment costs vary depending on the procedure and your individual requirements. We discuss fees transparently before commencing any treatment and provide an estimated treatment plan at your consultation. We aim to make quality dental care accessible and will always explain your options so you can make an informed decision.",
+    "category": "payments"
+  }
+]

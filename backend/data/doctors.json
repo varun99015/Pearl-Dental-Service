@@ -1,0 +1,35 @@
+[
+  {
+    "id": "dr-arjun-mehta",
+    "name": "Dr. Arjun Mehta",
+    "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80",
+    "qualifications": "BDS, MDS (Prosthodontics) — [Sample credentials: replace with verified information before launch]",
+    "specialities": ["Dental Implants", "Prosthodontics", "Smile Design", "Crowns & Bridges"],
+    "biography": "Dr. Arjun Mehta brings over a decade of experience in restorative and cosmetic dentistry. He believes in combining technical precision with a compassionate, patient-centred approach. He completed his postgraduate studies in Prosthodontics and has a keen interest in full-mouth rehabilitation and smile makeovers. [This is sample biographical content for demonstration purposes only.]",
+    "yearsOfExperience": 12,
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": "dr-priya-nair",
+    "name": "Dr. Priya Nair",
+    "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&q=80",
+    "qualifications": "BDS, MDS (Orthodontics) — [Sample credentials: replace with verified information before launch]",
+    "specialities": ["Clear Aligners", "Orthodontics", "Paediatric Dentistry", "Preventive Care"],
+    "biography": "Dr. Priya Nair is passionate about creating healthy, beautiful smiles for patients of all ages. With a specialisation in Orthodontics, she has a particular interest in clear aligner therapy and paediatric dental care. She is known for her gentle manner and for making nervous patients feel comfortable. [This is sample biographical content for demonstration purposes only.]",
+    "yearsOfExperience": 9,
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": "dr-karthik-rao",
+    "name": "Dr. Karthik Rao",
+    "image": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&q=80",
+    "qualifications": "BDS, MDS (Endodontics) — [Sample credentials: replace with verified information before launch]",
+    "specialities": ["Root Canal Treatment", "Endodontics", "Pain Management", "Restorative Dentistry"],
+    "biography": "Dr. Karthik Rao specialises in Endodontics, focusing on the health of the dental pulp and surrounding tissues. He is experienced in complex root canal cases and is committed to ensuring patients receive comfortable, anxiety-free treatment. [This is sample biographical content for demonstration purposes only.]",
+    "yearsOfExperience": 8,
+    "active": true,
+    "order": 3
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "clinicName": "Pearl Dental Studio",
+  "tagline": "Confident Smiles. Exceptional Care.",
+  "logoText": "Pearl Dental",
+  "phone": "+91 98765 43210",
+  "phoneRaw": "919876543210",
+  "email": "hello@pearldentalstudio.in",
+  "address": "12, Indiranagar 100 Feet Road, HAL 2nd Stage, Indiranagar",
+  "city": "Bengaluru, Karnataka 560038",
+  "whatsAppNumber": "919876543210",
+  "whatsAppMessage": "Hello! I would like to enquire about an appointment at Pearl Dental Studio.",
+  "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9876543210!2d77.6408!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPearl%20Dental%20Studio!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin",
+  "mapDirectionsUrl": "https://maps.google.com/?q=Indiranagar+Bengaluru",
+  "openingHours": {
+    "monday": "9:00 AM – 8:00 PM",
+    "tuesday": "9:00 AM – 8:00 PM",
+    "wednesday": "9:00 AM – 8:00 PM",
+    "thursday": "9:00 AM – 8:00 PM",
+    "friday": "9:00 AM – 8:00 PM",
+    "saturday": "9:00 AM – 6:00 PM",
+    "sunday": "Closed"
+  },
+  "socialLinks": {
+    "instagram": "https://instagram.com",
+    "facebook": "https://facebook.com",
+    "twitter": "https://twitter.com"
+  },
+  "primaryColor": "#0F7185",
+  "secondaryColor": "#A8D5BA",
+  "accentColor": "#F0F9FB"
+}

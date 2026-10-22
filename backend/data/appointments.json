@@ -1,0 +1,14 @@
+[
+  {
+    "id": "20721190-1aec-44da-b768-25538103aad6",
+    "patientName": "Varun S",
+    "phone": "+916363427278",
+    "email": "varu99015@gmail.com",
+    "preferredDate": "2026-10-23",
+    "preferredTime": "2:30 PM",
+    "service": "General Check-up & Cleaning",
+    "message": null,
+    "status": "pending",
+    "createdAt": "2026-10-22T06:18:22.602Z"
+  }
+]
